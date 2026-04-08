@@ -1,6 +1,12 @@
 {
   "name": "claude-in-chrome-windows-fix-marketplace",
-  "description": "Single-plugin marketplace for claude-in-chrome-windows-fix",
+  "owner": {
+    "name": "Robert Monroe",
+    "url": "https://github.com/robertmonroe"
+  },
+  "metadata": {
+    "description": "Single-plugin marketplace that ships claude-in-chrome-windows-fix — a self-healing Claude Code plugin for the cli.js J51() connector-factory bug on Windows."
+  },
   "plugins": [
     {
       "name": "claude-in-chrome-windows-fix",
