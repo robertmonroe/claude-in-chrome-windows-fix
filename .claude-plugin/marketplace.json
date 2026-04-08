@@ -11,11 +11,12 @@
     {
       "name": "claude-in-chrome-windows-fix",
       "source": {
-        "source": "github",
-        "repo": "robertmonroe/claude-in-chrome-windows-fix"
+        "source": "url",
+        "url": "https://github.com/robertmonroe/claude-in-chrome-windows-fix.git"
       },
+      "description": "Fixes cli.js 2.1.96+ J51() connector-factory bug so claude-in-chrome MCP tools work on Windows; self-heals across auto-updates.",
       "version": "1.0.0",
-      "description": "Fixes cli.js 2.1.96+ J51() connector-factory bug so claude-in-chrome MCP tools work on Windows; self-heals across auto-updates."
+      "strict": true
     }
   ]
 }
