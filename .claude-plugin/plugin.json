@@ -1,6 +1,6 @@
 {
   "name": "claude-in-chrome-windows-fix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fixes the cli.js 2.1.96+ J51() connector-factory bug that prevents claude-in-chrome MCP tools from working on Windows. Idempotently re-applies the local-socket-pool preference patch on every session start so auto-updates don't break Chrome tools.",
   "author": {
     "name": "Robert Monroe",
