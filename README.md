@@ -1,5 +1,9 @@
 # Claude in Chrome — Windows Fix
 
+<p align="center">
+  <img src="images/hero-claude-in-chrome-windows-fix.webp" alt="Claude Code plugin that fixes claude-in-chrome MCP tools on Windows — flat illustration of a browser window and a terminal window connected by a glowing data pipe with a wrench over the pipe symbolizing the patch" width="720">
+</p>
+
 *cli.js breaks claude-in-chrome on Windows every time it updates. This plugin patches it on every session start so Chrome tools just work.*
 
 ## The Problem
