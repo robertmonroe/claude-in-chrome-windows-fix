@@ -6,6 +6,5 @@
     "name": "Robert Monroe",
     "url": "https://github.com/robertmonroe"
   },
-  "hooks": "./hooks/hooks.json",
   "homepage": "https://github.com/robertmonroe/claude-in-chrome-windows-fix"
 }
