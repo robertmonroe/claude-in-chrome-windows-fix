@@ -1,0 +1,16 @@
+{
+  "description": "Ensure the J51() Windows patch is present in cli.js on every session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/claude-in-chrome-patch.js\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
